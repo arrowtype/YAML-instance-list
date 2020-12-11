@@ -15,9 +15,13 @@ Family:
 
 This could be parsed and used as arguments for the FontTools Instancer in order to generate static fonts, e.g. for Google Fonts static font downloads.
 
-## Reference project
+## Reference projects
 
-As a potential reference, a project that does something in this vein is [Recursive Code Config](https://github.com/arrowtype/recursive-code-config). It has user-configurable YAML files, which are used as an interface to specify custom styles for RIBBI font families.
+As a potential references, related projects are:
+
+* [Recursive Code Config](https://github.com/arrowtype/recursive-code-config). It has user-configurable YAML files, which are used as an interface to specify custom styles for RIBBI font families.
+
+* [gftools gen-statics](https://github.com/googlefonts/gftools/pull/264/files). This generates static font instances from the Google Fonts fallbacks cross products, and could use the YAML Instance List to improve its output.
 
 ## Example YAML Lists
 
